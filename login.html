@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>乐音乐login</title>
+<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.dialog.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.resizable.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.dialog.min.js"></script>
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Header -->
+  <header class="header">
+    <h4 class="logo">登录</h4>
+  </header>
+  <!-- Hero Section -->
+  <section class="intro">
+    <div class="column">
+      <h3>用户名</h3>
+      <img src="images/profile.png" alt="" class="profile"> </div>
+    <div class="column">
+      <p>
+      	账号：<input name="账号" type="text" autofocus required id="账号" placeholder="您的账号"  pattern="[0-9][1-9]{6,12}" title="您的账号（6~12位数字）" maxlength="6,12">
+   	  </p>
+   	  
+   	  <br>
+   	  
+   	  <p>
+   	  	密码：<input name="密码" type="password" autofocus required id="密码" placeholder="请输入密码" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,10}" title="包含大小写字母和数字的组合，不能使用特殊字符，长度在8~10之间" maxlength="8,10">	
+   	  </p>
+   	  
+   	  <br>
+   	  <p>
+   	  	<a href="index.html"><input type="submit" value="登录"></a>
+   	  </p>
+   	     	  
+   	  
+    </div>
+  </section>
+  
+  <br>
+  <marquee behavior="scroll" direction="right" scrollamount="20"  scrolldelay="100" width="auto" height="540px">
+  <a href="#"><img src="images/timg (5).jpg" width="960" height="540" alt=""/></a>
+  <a href="#"><img src="images/timg (8).jpg" width="960" height="540" alt=""/></a>
+  <a href="#"><img src="images/timg (10).jpg" width="960" height="540" alt=""/></a>
+  <a href="#"><img src="images/timg (9).jpg" width="960" height="540" alt=""/></a>
+  <a href="#"><img src="images/5a2e53622122c.png" width="960" height="540" alt=""/></a>
+  <a href="#"><img src="images/5aaa16dd702bc.jpg" width="960" height="540" alt=""/></a>
+  <a href="#"><img src="images/timg (14).jpg" width="960" height="540" alt=""/></a>
+  <a href="#"><img src="images/u=588146597,1714033812&fm=26&gp=0.jpg" width="960" height="540" alt=""/></a>
+  </marquee>
+  <audio loop autoplay>
+    <source src="music/Saiakoup - Azure.mp3" type="audio/mp3">
+  </audio>
+<br>
+
+  <footer id="contact">
+    <p class="hero_header">Welcom to happy music</p>
+	  <div class="button"><a href="index.html" style="text-decoration: none">ENTER</a></div>
+  </footer>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2019 - <strong style="color: orange">happy music</strong></div>
+</div>
+<!-- Main Container Ends -->
+<script type="text/javascript">
+$(function() {
+	$( "#Dialog1" ).dialog(); 
+});
+</script>
+</body>
+</html>
